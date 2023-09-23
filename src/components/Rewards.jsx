@@ -9,7 +9,7 @@ const Rewards = () => {
           <img src={trophy} alt="" />
         </div>
         <div className="content w-full md:w-3/5">
-          <h3 className="heading__3 pl-28">
+          <h3 className="heading__3 pl-28 clash700">
             Prizes and
             <br />
             <span className="text-lightPurple">Rewards</span>

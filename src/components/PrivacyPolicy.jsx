@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
     <section className="container mx-auto md:px-20 py-0 relative">
       <div className="flex flex-col md:flex-row items-center space-y-10 md:space-y-0 space-x-0 md:space-x-16">
         <div className="content w-full md:w-1/2 z-10">
-          <h3 className="heading__3">
+          <h3 className="heading__3 clash700">
             Privacy Policy and <br />
             <span className="text-lightPurple">Terms</span>
           </h3>

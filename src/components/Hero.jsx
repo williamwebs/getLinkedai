@@ -20,7 +20,7 @@ const Hero = () => {
 
       <div className="container mx-auto mt-10 flex flex-col md:flex-row space-y-10 md:space-y-0 items-center">
         <div className="content w-full md:w-2/3 flex flex-col space-y-6 relative">
-          <h1 className="heading__1 z-10">
+          <h1 className="heading__1 z-10 clash700">
             getlinked Tech
             <br /> Hackathon <span className="text-lightPurple">1.0</span>
           </h1>

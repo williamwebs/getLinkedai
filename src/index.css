@@ -11,6 +11,10 @@
 /* font-family: 'Unica One', cursive; */
 /* font-family: 'Red Hat Display', sans-serif; */
 
+.clash700 {
+  font-family: "Clash Display", sans-serif;
+}
+
 .gradient {
   background: linear-gradient(
     to left,
@@ -41,15 +45,15 @@ img {
 }
 
 .heading__1 {
-  @apply font-Display font-bold text-primary text-[80px] leading-[98.4px];
+  @apply font-bold text-primary text-[80px] leading-[98.4px];
 }
 
 .heading__3 {
-  @apply font-Unica font-bold text-[32px] leading-[42px] text-primary mb-8;
+  @apply font-bold text-[32px] leading-[42px] text-primary mb-8;
 }
 
 .heading__3_ {
-  @apply font-Unica font-bold text-[32px] leading-[42px] text-lightPurple mb-8;
+  @apply font-bold text-[32px] leading-[42px] text-lightPurple mb-8;
 }
 
 .paragraph {

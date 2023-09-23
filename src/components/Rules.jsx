@@ -1,11 +1,13 @@
 import rule from "../assets/rule.png";
+import star from "../assets/star.png";
+import starw from "../assets/starw.png";
 
 const Rules = () => {
   return (
     <section className="container mx-auto md:px-20 py-0 relative">
       <div className="flex flex-col-reverse md:flex-row items-center space-x-0 md:space-x-16">
-        <div className="content w-full md:w-1/2 z-10 mt-10 mb:mt-0">
-          <h3 className="heading__3">
+        <div className="content w-full md:w-1/2 z-10 mt-10 mb:mt-0 relative">
+          <h3 className="heading__3 clash700">
             Rules and <br />
             <span className="text-lightPurple">Guidelines</span>
           </h3>
@@ -17,6 +19,16 @@ const Rules = () => {
             problems, pushing the boundaries of technology, and creating
             solutions that can change the world, that's what we're all about!
           </p>
+          <img
+            src={star}
+            alt=""
+            className="absolute w-[15px] md:w-[20px] -top-56 left-0 md:-top-10 md:left-48"
+          />
+          <img
+            src={starw}
+            alt=""
+            className="absolute w-[15px] md:w-[20px] -top-20 md:top-[100%] right-10 md:right-4 "
+          />
         </div>
         <div className="image w-full md:w-1/2">
           <img src={rule} alt="" />

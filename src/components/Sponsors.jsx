@@ -3,7 +3,7 @@ import brands from "../assets/brands.png";
 const Sponsors = () => {
   return (
     <section className="container mx-auto md:px-20 py-0 relative">
-      <h3 className="heading__3 text-center">Partners and Sponsors</h3>
+      <h3 className="heading__3 text-center clash700">Partners and Sponsors</h3>
       <span className="block paragraph__2 text-center w-full md:w-2/5 mx-auto -mt-4">
         Getlinked Hackathon 1.0 is honored to have the following major companies
         as its partners and sponsors
