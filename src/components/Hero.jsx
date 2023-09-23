@@ -6,6 +6,7 @@ import chain from "../assets/chain.png";
 import fire from "../assets/fire.png";
 import bulbh from "../assets/bulbh.png";
 import star from "../assets/star.png";
+import stripe from "../assets/stripe.png";
 
 const Hero = () => {
   const hackathonEndTime = new Date("2023-09-30T12:00:00Z");
@@ -13,8 +14,9 @@ const Hero = () => {
   return (
     <header className="h-full md:h-calc-vh relative">
       <div className="top container mx-auto">
-        <span className="block text-primary py-4 text-center md:text-right italic font-Montserrat font-bold text-base md:text-[36px] leading-[19.5px] md:leading-[43.88px]">
+        <span className="block relative text-primary py-4 text-center md:text-right italic font-Montserrat font-bold text-base md:text-[36px] leading-[19.5px] md:leading-[43.88px]">
           Igniting a Revolution in HR Innovation
+          <img src={stripe} alt="" className="absolute right-4 md:right-0 bottom-0 w-1/3 md:w-[250px]" />
         </span>
       </div>
 

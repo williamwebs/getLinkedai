@@ -103,7 +103,7 @@ const Register = () => {
             <img src={img} alt="" />
           </div>
           <div className="form w-full md:w-1/2 shadow">
-            <p className="font-Unica font-bold text-[20px] leading-[24px] text-lightPurple mb-4">
+            <p className="clash700 font-bold text-[20px] leading-[24px] text-lightPurple mb-4">
               Register
             </p>
 

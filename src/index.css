@@ -40,10 +40,6 @@ img {
   width: 100%;
 }
 
-.sss {
-  border: 1px solid #fff;
-}
-
 .heading__1 {
   @apply font-bold text-primary text-[80px] leading-[98.4px];
 }
@@ -269,6 +265,6 @@ hr {
   }
 
   .btn {
-    @apply text-primary font-Montserrat font-semibold text-[18px] leading-[21.5px];
+    @apply text-primary font-Montserrat font-semibold text-[14px] leading-[21.5px];
   }
 }

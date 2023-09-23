@@ -68,10 +68,10 @@ const Contact = () => {
             </p>
           </div>
           <div className="form w-full md:w-2/3 shadow">
-            <p className="font-Unica font-bold text-[20px] leading-[24px] text-lightPurple">
+            <p className="clash700 font-bold text-[20px] leading-[24px] text-lightPurple">
               Questions or need assistance?
             </p>
-            <p className="font-Unica font-bold text-[20px] leading-[24px] text-lightPurple mb-8">
+            <p className="clash700 font-bold text-[20px] leading-[24px] text-lightPurple mb-8">
               Let us know about it!
             </p>
 
