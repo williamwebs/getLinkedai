@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <header className="h-full md:h-calc-vh relative">
       <div className="top container mx-auto">
-        <span className="block text-primary py-4 text-right italic font-Montserrat font-bold text-base md:text-[36px] leading-[19.5px] md:leading-[43.88px]">
+        <span className="block text-primary py-4 text-center md:text-right italic font-Montserrat font-bold text-base md:text-[36px] leading-[19.5px] md:leading-[43.88px]">
           Igniting a Revolution in HR Innovation
         </span>
       </div>
@@ -26,7 +26,7 @@ const Hero = () => {
           </h1>
 
           {/* chain and fire images */}
-          <div className="absolute top-8 right-4 md:top-20 md:right-12  flex items-center w-[28px] md:w-[200px]">
+          <div className="absolute top-8 right-4 md:top-20 md:right-12  flex items-center w-[28px] md:w-[180px]">
             <img src={chain} alt="" />
             <img src={fire} alt="" />
           </div>
