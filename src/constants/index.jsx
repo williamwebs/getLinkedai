@@ -138,3 +138,46 @@ export const timeline = [
     number: 6,
   },
 ];
+export const timelineMobile = [
+  {
+    text: "Hackathon Announcement",
+    date: "November 18, 2023",
+    numbeer: 1,
+    content:
+      "The getlinked tech hackathon 1.0 is formally announced to the general public and teams begin to get ready to register",
+  },
+  {
+    text: "Team Registration begins",
+    date: "November 18, 2023",
+    numbeer: 2,
+    content:
+      "Interested teams can now show their interest in the getlinked tech hackathon 1.0 2023 by proceeding to register",
+  },
+  {
+    text: "Teams Registration ends",
+    date: "November 18, 2023",
+    numbeer: 3,
+    content: "Interested Participants are no longer Allowed to register",
+  },
+  {
+    text: "Announcement of the accepted teams and ideas",
+    date: "November 18, 2023",
+    numbeer: 4,
+    content:
+      "All teams whom idea has been accepted into getlinked tech hackathon 1.0 2023 are formally announced",
+  },
+  {
+    text: "Getlinked Hackathon 1.0 Offically Begins",
+    date: "November 18, 2023",
+    numbeer: 5,
+    content:
+      "Accepted teams can now proceed to build their ground breaking skill driven solutions",
+  },
+  {
+    text: "Demo Day",
+    date: "November 18, 2023",
+    numbeer: 6,
+    content:
+      "Teams get the opportunity to pitch their projects to judges. The winner of the hackathon will also be announced on this day",
+  },
+];

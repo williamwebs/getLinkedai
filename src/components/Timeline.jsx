@@ -1,4 +1,4 @@
-import { timeline } from "../constants";
+import { timeline, timelineMobile } from "../constants";
 
 const Timeline = () => {
   return (
@@ -9,7 +9,8 @@ const Timeline = () => {
         event.
       </span>
 
-      <div className="timeline my-10">
+      {/* desktop */}
+      <div className="hidden md:block timeline my-10">
         {timeline.map((i) => (
           <div className="grid grid-cols-9 my-2">
             <div className="col-span-4 w-full h-full">
@@ -17,11 +18,13 @@ const Timeline = () => {
                 <h3 className="text-lightPurple font-Montserrat font-bold text-[24px] leading-[29.26px] text-right">
                   {i.left.text}
                 </h3>
-                {/* {i.left.content && (
+                {i.left.content ? (
                   <p className="paragraph__2 text-right my-2">
-                    {i.text.content}
+                    {i.left.content}
                   </p>
-                )} */}
+                ) : (
+                  <p className="paragraph__2 text-right my-2"></p>
+                )}
               </div>
             </div>
             <div className="relative col-span-1 w-full h-full flex justify-center items-end">
@@ -36,6 +39,42 @@ const Timeline = () => {
               <div className="w-full h-full bg-transparent">
                 <h3 className="text-lightPurple font-Montserrat font-bold text-[24px] leading-[29.26px] text-left">
                   {i.right.text}
+                </h3>
+                {i.right.content ? (
+                  <p className="paragraph__2 text-left my-2">
+                    {i.right.content}
+                  </p>
+                ) : (
+                  <p className="paragraph__2 text-right my-2"></p>
+                )}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* mobile */}
+      <div className="timeline mt-10 md:hidden">
+        {timelineMobile.map((i) => (
+          <div className="grid mb-4 grid-cols-5">
+            <div className="relative col-span-1 w-full h-full flex justify-center items-end">
+              <div className="h-full w-1 bg-lightPurple"></div>
+              <div className="absolute w-10 h-10 rounded-full bg-darkPurple z-10 flex items-center justify-center">
+                <div className="absolute w-6 h-6 rounded-full bg-lightPurple z-10 text-primary font-Montserrat font-bold text-sm flex items-center justify-center">
+                  {i.numbeer}
+                </div>
+              </div>
+            </div>
+            <div className="col-span-4 w-full h-full">
+              <div className="w-full h-full bg-transparent">
+                <h3 className="text-lightPurple font-Montserrat font-bold text-[12px] leading-[14px] text-left">
+                  {i.text}
+                </h3>
+                <p className="font-Montserrat font-normal text-[12px] leading-[18px] text-primary text-left my-1">
+                  {i.content}
+                </p>
+                <h3 className="text-lightPurple font-Montserrat font-bold text-[12px] leading-[14px] text-left">
+                  {i.date}
                 </h3>
               </div>
             </div>
